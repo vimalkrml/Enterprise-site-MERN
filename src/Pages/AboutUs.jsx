@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBar from "../Components/NavBar/NavBar";
-import { Container, Row, Col, Card, Badge, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 import Footer from "../Components/Footer/Footer";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -89,9 +89,6 @@ const snapshots = [
     caption: 'Leadership Meetup – Vision Alignment',
   },
 ];
-
-
-
 
 const AboutUs = () => {
   return (
